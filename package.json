@@ -1,9 +1,12 @@
 {
-  "name": "boilerplate",
+  "name": "react-weather",
   "version": "1.0.0",
-  "description": "boilerplate react project",
+  "description": "simple react weather app",
   "main": "index.js",
-  "repository": {},
+  "scripts": {
+    "test" : "echo \"Error: No test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "author": "Jason McGloin",
   "license": "MIT",
   "dependencies": {
