@@ -27,14 +27,14 @@ let Weather = React.createClass(
 		let {isLoading, temp, location} = this.state;
 		let renderMessage = function() {
 			if(isLoading) {
-				return <h3>Getting the weather...</h3>;
+				return <h3 className='text-center'>Getting the weather...</h3>;
 			}else if(temp && location) {
 				return <WeatherMessage location={location} temp={temp}/>;
 			}
 		};
 		return (
 			<div>
-				<h3>Weather</h3>
+				<h1 className='text-center'>Get Weather</h1>
 				<WeatherForm onUpdate={this.handleUpdate}/>
 				{renderMessage()}
 			</div>
