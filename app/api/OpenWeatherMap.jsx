@@ -11,7 +11,7 @@ module.exports = {
 		//console.log(requestUrl);
 
 		return axios.get(requestUrl).then(function(res) {
-			debugger;
+			//debugger;
 			if(res.data.message && res.data.cod) {
 				throw new Error(res.message);
 			} else {

@@ -30,6 +30,7 @@ module.exports = {
 			Examples: 		path.resolve(__dirname, './app/component/Examples'),
 			WeatherForm: 	path.resolve(__dirname, './app/component/WeatherForm'),
 			WeatherMessage: path.resolve(__dirname, './app/component/WeatherMessage'),
+			ErrorModal: 	path.resolve(__dirname, './app/component/ErrorModal'),
 			OpenWeatherMap: path.resolve(__dirname, './app/api/OpenWeatherMap')
 		},
 		extensions: ["*",".js",".jsx"]
@@ -46,5 +47,5 @@ module.exports = {
 			}
 		]
 	},
-	devtool: "cheap-module-eval-source-map"
+	devtool: "module-eval-source-map"
 }
