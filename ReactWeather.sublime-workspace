@@ -140,19 +140,19 @@
 	"buffers":
 	[
 		{
-			"file": "webpack.config.js",
+			"file": "app/component/WeatherForm.jsx",
 			"settings":
 			{
-				"buffer_size": 1382,
+				"buffer_size": 526,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/component/ErrorModal.jsx",
+			"file": "app/component/Nav.jsx",
 			"settings":
 			{
-				"buffer_size": 509,
+				"buffer_size": 1096,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -165,10 +165,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 292.0,
-		"last_filter": "syntax j",
+		"height": 392.0,
+		"last_filter": "rena",
 		"selected_items":
 		[
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"file new",
+				"File: New File Relative to Current View"
+			],
 			[
 				"syntax j",
 				"Set Syntax: JavaScript"
@@ -268,10 +276,6 @@
 			[
 				"de",
 				"File: Delete"
-			],
-			[
-				"file new",
-				"File: New File Relative to Project Root"
 			],
 			[
 				"remove",
@@ -494,7 +498,7 @@
 				"Set Syntax: JavaScript"
 			]
 		],
-		"width": 485.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -546,12 +550,14 @@
 	],
 	"file_history":
 	[
-		"/home/devj/Desktop/ReactWeather/public/bundle.js",
-		"/home/devj/Desktop/ReactWeather/test",
-		"/home/devj/Desktop/ReactWeather/app/component/ErrorModal.jsx",
+		"/home/devj/Desktop/ReactWeather/app/styles/app.css",
+		"/home/devj/Desktop/ReactWeather/app/app.jsx",
 		"/home/devj/Desktop/ReactWeather/app/api/OpenWeatherMap.jsx",
 		"/home/devj/Desktop/ReactWeather/app/component/Weather.jsx",
+		"/home/devj/Desktop/ReactWeather/app/component/ErrorModal.jsx",
 		"/home/devj/Desktop/ReactWeather/webpack.config.js",
+		"/home/devj/Desktop/ReactWeather/public/bundle.js",
+		"/home/devj/Desktop/ReactWeather/test",
 		"/home/devj/Desktop/ReactWeather/app/component/WeatherForm.jsx",
 		"/home/devj/Desktop/ReactWeather/app/component/About.jsx",
 		"/home/devj/Desktop/ReactWeather/app/component/Examples.jsx",
@@ -561,7 +567,6 @@
 		"/home/devj/Desktop/ReactWeather/app/component/WeatherMessage.jsx",
 		"/home/devj/Desktop/ReactWeather/package.json",
 		"/home/devj/Desktop/ReactWeather/server.js",
-		"/home/devj/Desktop/ReactWeather/app/app.jsx",
 		"/home/devj/Desktop/ReactWeather/readme.md",
 		"/home/devj/Desktop/ReactWeather/promiseTry.js",
 		"/home/devj/Desktop/ReactWeather/arrow.js",
@@ -712,53 +717,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "webpack.config.js",
+					"file": "app/component/WeatherForm.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1382,
+						"buffer_size": 526,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1364,
-								1364
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 399.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/component/ErrorModal.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 509,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								479,
-								479
+								354,
+								354
 							]
 						],
 						"settings":
@@ -771,6 +747,35 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/component/Nav.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1096,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								930,
+								930
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
