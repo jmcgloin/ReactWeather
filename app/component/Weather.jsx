@@ -43,8 +43,8 @@ debugger;
 		let renderError = function() {
 			if(typeof errorMessage === 'string') {
 				return (
-					<ErrorModal/>
-				)
+					<ErrorModal message={errorMessage}/>
+				);
 			}
 		};
 		return (
@@ -59,7 +59,3 @@ debugger;
 });
 
 module.exports = Weather;
-
-// module-eval-source-map
-// inline-eval-source-map
-// eval-source-map

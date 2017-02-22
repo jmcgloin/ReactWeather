@@ -17,8 +17,8 @@ module.exports = {
 			} else {
 				return {temp: Math.round(res.data.main.temp), location:res.data.name};
 			}
-		}, function (res) {
-			throw new Error(res.data.message);
+		}, function (err) {
+			throw new Error('Unable to get weather for that location.');
 		});
 	}
 };
