@@ -32,7 +32,7 @@ module.exports = {
 			WeatherMessage: 	path.resolve(__dirname, './app/component/WeatherMessage'),
 			ErrorModal: 		path.resolve(__dirname, './app/component/ErrorModal'),
 			OpenWeatherMap: 	path.resolve(__dirname, './app/api/OpenWeatherMap'),
-			applicationStyles: 	path.resolve(__dirname, './app/styles/app.css')
+			applicationStyles: 	path.resolve(__dirname, './app/styles/app.scss')
 		},
 		extensions: ["*",".js",".jsx"]
 	},
