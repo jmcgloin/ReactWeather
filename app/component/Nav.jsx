@@ -5,6 +5,7 @@ let Nav = React.createClass({
 	onSearch: (e) => {
 		e.preventDefault();
 		alert('Not yet wired up');
+		let location = this.ref.loc.value;
 	},
 	render: function() {
 		return (
@@ -26,7 +27,7 @@ let Nav = React.createClass({
 				<div className='top-bar-right'>
 					<form onSubmit={this.onSearch}>
 						<ul className='menu'>
-							<li><input type='search' placeholder='Search weather by city'/></li>
+							<li><input type='search' ref='loc' placeholder='Search weather by city'/></li>
 							<li><input type='submit' className='button' value='getWeather'/></li>
 						</ul>
 					</form>

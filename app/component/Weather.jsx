@@ -16,13 +16,14 @@ let Weather = React.createClass(
 
 		this.setState({
 			isLoading: true,
-			errorMessage: undefined
+			errorMessage: undefined,
+			location: undefined,
+			temp: undefined
 		});
 		//e4ac05962320215331a10b665b88133c API key
 		OpenWeatherMap.getTemp(location).then(function(obj) {
 			that.setState(obj);
 			that.setState({isLoading: false});
-debugger;
 		}, function(e) {
 			//alert(errorMessage);
 			that.setState({
@@ -30,6 +31,13 @@ debugger;
 				errorMessage: e.message
 			});
 		});
+	},
+	componentDidMount: function() {
+		let location = this.props.location.query.location;
+		if(location && location.length > 0) {
+			this.handleUpdate(location);
+			window.location.hash = '#/';
+		}
 	},
 	render: function () {
 		let {isLoading, temp, location, errorMessage} = this.state;
