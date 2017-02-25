@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"encode",
+				"encodeURI"
+			],
+			[
 				"border-r",
 				"border-radius"
 			],
@@ -144,19 +148,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/component/WeatherForm.jsx",
+			"file": "app/styles/app.scss",
 			"settings":
 			{
-				"buffer_size": 526,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/component/About.jsx",
-			"settings":
-			{
-				"buffer_size": 494,
+				"buffer_size": 181,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -165,24 +160,7 @@
 			"file": "app/component/Weather.jsx",
 			"settings":
 			{
-				"buffer_size": 1425,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/component/Examples.jsx",
-			"settings":
-			{
-				"buffer_size": 487,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/styles/app.css",
-			"settings":
-			{
-				"buffer_size": 104,
+				"buffer_size": 1657,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -191,7 +169,24 @@
 			"file": "app/component/Nav.jsx",
 			"settings":
 			{
-				"buffer_size": 1096,
+				"buffer_size": 1313,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/component/WeatherForm.jsx",
+			"settings":
+			{
+				"buffer_size": 526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/app.jsx",
+			"settings":
+			{
+				"buffer_size": 741,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -204,10 +199,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "rena",
+		"height": 92.0,
+		"last_filter": "synt css",
 		"selected_items":
 		[
+			[
+				"synt css",
+				"Set Syntax: CSS"
+			],
+			[
+				"r",
+				"File: Rename"
+			],
 			[
 				"rena",
 				"File: Rename"
@@ -590,19 +593,19 @@
 	],
 	"file_history":
 	[
+		"/home/devj/Desktop/ReactWeather/app/component/WeatherForm.jsx",
+		"/home/devj/Desktop/ReactWeather/app/component/About.jsx",
+		"/home/devj/Desktop/ReactWeather/app/component/Examples.jsx",
+		"/home/devj/Desktop/ReactWeather/app/component/Nav.jsx",
+		"/home/devj/Desktop/ReactWeather/webpack.config.js",
 		"/home/devj/Desktop/ReactWeather/app/styles/app.css",
 		"/home/devj/Desktop/ReactWeather/app/app.jsx",
 		"/home/devj/Desktop/ReactWeather/app/api/OpenWeatherMap.jsx",
 		"/home/devj/Desktop/ReactWeather/app/component/Weather.jsx",
 		"/home/devj/Desktop/ReactWeather/app/component/ErrorModal.jsx",
-		"/home/devj/Desktop/ReactWeather/webpack.config.js",
 		"/home/devj/Desktop/ReactWeather/public/bundle.js",
 		"/home/devj/Desktop/ReactWeather/test",
-		"/home/devj/Desktop/ReactWeather/app/component/WeatherForm.jsx",
-		"/home/devj/Desktop/ReactWeather/app/component/About.jsx",
-		"/home/devj/Desktop/ReactWeather/app/component/Examples.jsx",
 		"/home/devj/Desktop/ReactWeather/app/component/Main.jsx",
-		"/home/devj/Desktop/ReactWeather/app/component/Nav.jsx",
 		"/home/devj/Desktop/ReactWeather/.gitignore",
 		"/home/devj/Desktop/ReactWeather/app/component/WeatherMessage.jsx",
 		"/home/devj/Desktop/ReactWeather/package.json",
@@ -757,24 +760,52 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/component/WeatherForm.jsx",
+					"file": "app/styles/app.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 526,
+						"buffer_size": 181,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								354,
-								354
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/component/Weather.jsx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								908,
+								908
 							]
 						],
 						"settings":
@@ -786,44 +817,45 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/component/About.jsx",
+					"buffer": 2,
+					"file": "app/component/Nav.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 494,
+						"buffer_size": 1313,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								114,
-								114
+								391,
+								391
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/component/Weather.jsx",
+					"buffer": 3,
+					"file": "app/component/WeatherForm.jsx",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1425,
+						"buffer_size": 526,
 						"regions":
 						{
 						},
@@ -840,35 +872,6 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 570.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/component/Examples.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 487,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								155,
-								155
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -877,59 +880,30 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/styles/app.css",
+					"file": "app/app.jsx",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 104,
+						"buffer_size": 741,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								104,
-								104
+								449,
+								449
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/component/Nav.jsx",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1096,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								985,
-								985
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]

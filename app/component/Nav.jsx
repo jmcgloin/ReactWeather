@@ -2,10 +2,15 @@ var React = require('react');
 var {Link, IndexLink} = require('react-router');
 
 let Nav = React.createClass({
-	onSearch: (e) => {
+	onSearch: function(e) {
 		e.preventDefault();
-		alert('Not yet wired up');
-		let location = this.ref.loc.value;
+		let location = this.refs.loc.value;
+		console.log(location);
+		const encodedLocation = encodeURI(location);
+		if(location.length > 0) {
+			this.refs.loc.value = '';
+			window.location.hash = '#/?location=' + encodedLocation;
+		}
 	},
 	render: function() {
 		return (
