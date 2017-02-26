@@ -39,6 +39,13 @@ let Weather = React.createClass(
 			window.location.hash = '#/';
 		}
 	},
+	componentWillReceiveProps(nextProps) {
+		let location = nextProps.location.query.location;
+		if(location && location.length > 0) {
+			this.handleUpdate(location);
+			window.location.hash = '#/';
+		}
+	},
 	render: function () {
 		let {isLoading, temp, location, errorMessage} = this.state;
 		let renderMessage = function() {
